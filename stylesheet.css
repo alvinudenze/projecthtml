@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+  height: 100%;
+  width: 100%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+#header {
+  background-color: #19381b;
+  color: #000;
+  height: auto;
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#header h1 {
+  font-size: larger;
+}
+
+#header h2 {
+  font-size: medium;
+}
+
+
+#menu {
+  height: 50px;
+  text-align: center;
+}
+
+#logo {
+  width: 15%;
+  float: left;
+}
+
+#main body {}
+
+#footer {
+  background-color: #99ff9b;
+  height: 25px;
+  font-size: x-small;
+  text-align: center;
+}
+
+#rightBar {
+  float: right;
+  height: 50%;
+  width: 40%;
+  margin-right: 15%;
+  margin-left: 5px;
+  text-indent: 5px;
+  background-color: white;
+}
+
+.button {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #000;
+  font-weight: bold;
+  border: solid #99ffb8;
+  height: 40px;
+  width: 20%;
+  background: #FFFFFF;
+}
+
+.button:hover {
+  background: #00ff6e;
+  color: #99ffa0;
+}
+
+#container #header h1 {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#container #header u {
+  font-family: Lucida Console, Monaco, monospace;
+}
